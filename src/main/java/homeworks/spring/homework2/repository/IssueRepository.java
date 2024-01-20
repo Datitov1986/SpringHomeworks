@@ -1,0 +1,38 @@
+package homeworks.spring.homework2.repository;
+
+import org.springframework.stereotype.Repository;
+import homeworks.spring.homework2.model.Issue;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
+@Repository
+public class IssueRepository {
+
+    private final List<Issue> issues;
+
+
+    public IssueRepository() {
+        this.issues = new ArrayList<>();
+    }
+
+    public void save(Issue issue) {
+        // insert into ....
+        issues.add(issue);
+    }
+
+    public Issue getIssueById(long id) {
+        return issues.stream().filter(it -> Objects.equals(it.getId(), id))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public Issue findByReaderId(long id) {
+        return issues.stream().filter(it -> Objects.equals(it.getReaderId(), id))
+                .findFirst()
+                .orElse(null);
+    }
+
+
+}
