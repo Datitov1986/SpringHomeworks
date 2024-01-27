@@ -1,0 +1,12 @@
+server:
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mynotes
+    username: mynotes
+    password: mypassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
