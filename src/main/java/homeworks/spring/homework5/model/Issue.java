@@ -1,4 +1,4 @@
-package homeworks.spring.homework4.model;
+package homeworks.spring.homework5.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;

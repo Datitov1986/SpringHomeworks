@@ -1,8 +1,8 @@
-package homeworks.spring.homework4.api;
+package homeworks.spring.homework5.api;
 
-import homeworks.spring.homework4.model.Issue;
-import homeworks.spring.homework4.repository.IssueRepository;
-import homeworks.spring.homework4.service.IssuerService;
+import homeworks.spring.homework5.model.Issue;
+import homeworks.spring.homework5.repository.IssueRepository;
+import homeworks.spring.homework5.service.IssuerService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,10 +1,9 @@
-package homeworks.spring.homework4.api;
+package homeworks.spring.homework5.api;
 
-import homeworks.spring.homework4.model.Book;
-import homeworks.spring.homework4.repository.BookRepository;
+import homeworks.spring.homework5.model.Book;
+import homeworks.spring.homework5.repository.BookRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import jakarta.persistence.Table;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

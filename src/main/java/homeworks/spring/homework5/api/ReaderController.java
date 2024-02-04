@@ -1,9 +1,9 @@
-package homeworks.spring.homework4.api;
+package homeworks.spring.homework5.api;
 
-import homeworks.spring.homework4.model.Issue;
-import homeworks.spring.homework4.model.Reader;
-import homeworks.spring.homework4.repository.ReaderRepository;
-import homeworks.spring.homework4.service.ReaderService;
+import homeworks.spring.homework5.model.Issue;
+import homeworks.spring.homework5.model.Reader;
+import homeworks.spring.homework5.repository.ReaderRepository;
+import homeworks.spring.homework5.service.ReaderService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
@@ -47,6 +47,12 @@ public class ReaderController {
     public void createReader(@RequestBody Reader reader) {
         readerRepository.save(reader);
     }
+
+    @PatchMapping
+    public void updateReader(@RequestBody Reader reader){
+        readerRepository.save(reader);
+    }
+
 
     @GetMapping("/{id}/issue")
     @Operation(summary = "Получить список выдач", description = "Загрузка списка выдач для читателя с заданным идентификатором")
