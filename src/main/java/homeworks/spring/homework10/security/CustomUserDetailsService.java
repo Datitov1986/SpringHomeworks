@@ -1,16 +1,16 @@
-package homeworks.spring.homework5.security;
-//
-//import homeworks.spring.homework5.model.Reader;
-//import homeworks.spring.homework5.repository.ReaderRepository;
+package homeworks.spring.homework10.security;
+
+//import homeworks.spring.homework10.model.Reader;
+//import homeworks.spring.homework10.repository.ReaderRepository;
 //import lombok.RequiredArgsConstructor;
 //import org.springframework.security.core.authority.SimpleGrantedAuthority;
 //import org.springframework.security.core.userdetails.UserDetails;
 //import org.springframework.security.core.userdetails.UserDetailsService;
 //import org.springframework.security.core.userdetails.UsernameNotFoundException;
 //import org.springframework.stereotype.Service;
-//
-//import java.util.List;
-//
+
+import java.util.List;
+
 //@Service
 //@RequiredArgsConstructor
 //public class CustomUserDetailsService implements UserDetailsService {

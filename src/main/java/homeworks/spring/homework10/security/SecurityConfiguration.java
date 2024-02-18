@@ -1,4 +1,4 @@
-package homeworks.spring.homework5.security;
+package homeworks.spring.homework10.security;
 
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
